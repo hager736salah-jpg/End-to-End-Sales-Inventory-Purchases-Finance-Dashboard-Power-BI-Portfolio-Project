@@ -1,0 +1,31 @@
+# Sales, Inventory, Purchases & Finance Dashboard (Power BI)
+
+An interactive multi-page **Power BI** report covering sales performance, warehouse transfers, inventory health, purchasing, cash/bank accounts, expenses, and account balances, supported by dynamic slicers (`month_name`, store/warehouse, bank account) and side navigation.
+
+## 🎥 Video Walkthrough
+Watch the demo video here: [Watch Video](https://youtu.be/YozvC1p3v3I)
+
+---
+
+## 📌 Dashboard Sections & Key Metrics
+
+### 1. Sales & Profitability
+- **KPIs:** Total Sales (`3.97M`), Net Sales (`3.96M`), Total Cost (`3.31M`), Net Profit (`653.87K`), Profit Margin (`16.61%`), and Discount Rate (`0.14%`), with prior-month comparisons.
+- **Visuals:** Sales classification breakdown, average profit & margin by store, monthly profit trend, and item-level sales, cost, and profit margin.
+
+### 2. Warehouse Transfers & Stock Issue
+- **KPIs:** Total Stock (`158K` / `21K` filtered), transfer value, transfer execution rate, issued item quantity (`2.39K`), net issue ratio (`135.70%`), damaged returns (`10.30K`), and damage ratio (`14.27%`).
+- **Visuals:** Transfers across `المخزن`, `محل 1`, and `محل 2`, transferred quantities by item, and monthly transfer/issue trends.
+
+### 3. Stock & Inventory Audit
+- **KPIs:** Total Balance (`158K`), Inventory Value (`11.00M`), Dead/Slow Stock Value (`9.00M`), Slow-Moving Items (`29`), Shortage Items (`607`), and Average Cost (`275.36`).
+- **Visuals:** Total balance and stock value by warehouse, shortage vs. slow-moving items per warehouse, stock value by item, and detailed item table.
+
+### 4. Purchases & Accounts
+- **KPIs:** Total Purchases (`3.61M`), Purchase Invoices (`262`), Purchased Quantity (`91.19K`), Purchase Discounts (`24.60K`), Remaining Balance (`3.60M`), Cash Payments (`8M`), Total Expenses (`790K`), Cash Collection (`1.23M`), and Bank Debit/Credit (`2.84M` / `2.74M`).
+- **Visuals:** Payment methods (`نقدي`, `فودافون 1`, `انستا 1`, `فودافون 2`), purchases by customer/vendor, monthly purchases & expenses, expense types, and debit/credit movement.
+
+---
+
+## 🛠️ Tools & Features
+- **Power BI Desktop** (Data Modeling, DAX Measures, Interactive Slicers, Bookmarks/Navigation)
